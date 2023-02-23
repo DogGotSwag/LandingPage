@@ -172,9 +172,28 @@ button {
     align-items: center;
     padding: 40px;
     background-color: #ffffff;
-    border: 2px solid black;
   }
   .blue{
     background-color: #3882F6;
     display: flex;
+    border-radius: 6px;
+    padding: 30px 60px;
+    flex-wrap: wrap;
+  }
+  .top{
+    font-size: 24px;
+    font-weight: 800;
+    color: #E5E7EB;
+    margin: 0;
+  }
+  .bottom{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+  }
+  .cunt{
+    margin-left: 60px;
+    background: #3882F6;
+    border: 2px solid white;
+    color: white;
   }
