@@ -57,9 +57,7 @@ a{
     align-items: center;
 }
 .dog{
-   flex: 1;
-   min-height: 210px;
-   min-width: 210px;
+   flex: auto;
    justify-content: flex-start;
    align-items: flex-start;
    margin-top: 20px;
@@ -128,6 +126,7 @@ button {
 
   }
   .mini{
+    display: flex;
     border: 5px solid #3882F6;
     min-width: 165px;
     min-height: 165px;
@@ -196,4 +195,12 @@ button {
     background: #3882F6;
     border: 2px solid white;
     color: white;
+  }
+  .image{
+    width: 410px;
+    height: auto;
+  }
+  .book{
+    width: 165px;
+    height: auto;
   }
